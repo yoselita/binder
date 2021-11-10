@@ -5,16 +5,16 @@ channels:
   - defaults
 dependencies:
   # Jupyter and JupyterHub dependencies
-  - r-irkernel #==1.2
-  - bash_kernel #==0.7.2
-  - jupyter #==1.0.0 
-  - jupyterhub #==1.4.2
-  - notebook #==6.4.2
-  - jupyterlab #==3.1.4
-  - jupyter_nbextensions_configurator #==0.4.1
-  - rise #==5.7.1
+  - r-irkernel ==1.2
+  - bash_kernel ==0.7.2
+  - jupyter ==1.0.0 
+  - jupyterhub ==1.4.2
+  - notebook ==6.4.2
+  - jupyterlab ==3.1.4
+  - jupyter_nbextensions_configurator ==0.4.1
+  - rise ==5.7.1
   # required to decouple binder and repo
-  - nbgitpuller #==0.10.1
+  - nbgitpuller ==0.10.1
   # optional jupyter labextensions (i.e. git) build dependencies
   - jupyterlab-git
   - nodejs
