@@ -22,4 +22,5 @@ dependencies:
   - wheel
   # Other
   - nano
+  - vim
   - gh
